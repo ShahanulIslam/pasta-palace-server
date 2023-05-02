@@ -12,6 +12,11 @@ app.get('/', (req, res) => {
 app.get('/chef', (req, res) => {
     res.send(chef)
   })
+  app.get('/chef/:id', (req, res) => {
+    const id =  req.params.id;
+    const chefDetails = chef.find(c => c.id == id);
+    res.send(chefDetails);
+  })
   
   app.listen(port, () => {
     console.log(`Chef recipe hunter server running on port ${port}`)
