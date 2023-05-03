@@ -2,15 +2,15 @@
       {
         "id": 1,
         "name": "John Doe",
-        "picture": "https://media.istockphoto.com/id/666908954/photo/handsome-chef-pouring-olive-oil-on-meal.jpg?b=1&s=612x612&w=0&k=20&c=HjRKDT1x_HXmhBG7YkJud1Q3BUcYDHcg1g6gfV8wgt0=",
+        "picture":"https://media.istockphoto.com/id/1359352308/photo/portrait-of-a-waitress-taking-food-to-a-table-in-a-restaurant.jpg?s=612x612&w=0&k=20&c=OEO27pwACMkRK_q1Mf4HS9cx6aCRGoHuyYlTZRPhhLs=",
         "bio": "John Doe is a classically trained chef with a passion for creating delicious and unique dishes. He has worked in some of the most prestigious restaurants in the world and has won numerous awards for his culinary skills.",
         "years_of_experience": 10,
         "num_of_recipes": 50,
-        "likes": 200,
+        "likes": 2000,
         "recipes": [
             {
               "name": "Classic Spaghetti Bolognese",
-              "recipe_img":"https://images.pexels.com/photos/6382782/pexels-photo-6382782.jpeg?auto=compress&cs=tinysrgb&w=600",
+              "recipe_img":"https://images.pexels.com/photos/6287534/pexels-photo-6287534.jpeg?auto=compress&cs=tinysrgb&w=600",
               "ingredients": [
                 "1 lb ground beef",
                 "1 can crushed tomatoes",
@@ -18,13 +18,225 @@
                 "3 garlic cloves, minced",
                 "1 lb spaghetti pasta"
               ],
-              "cooking_method": "1. Cook spaghetti according to package directions.\n2. In a large skillet, cook ground beef, onion, and garlic over medium heat until beef is browned and cooked through.\n3. Add crushed tomatoes and simmer for 15-20 minutes.\n4. Serve sauce over cooked spaghetti.",
+              "cooking_method": " Cook spaghetti according to package directions. In a large skillet, cook ground beef, onion, and garlic over medium heat until beef is browned and cooked through. Add crushed tomatoes and simmer for 15-20 minutes. Serve sauce over cooked spaghetti.",
+              "rating": 5,
+              "favorite": false
+            },
+            {
+              "name": "Classic Spaghetti Bolognese",
+              "recipe_img":"https://media.istockphoto.com/id/893716434/photo/healhty-vegan-lunch-bowl-avocado-quinoa-sweet-potato-tomato-spinach-and-chickpeas-vegetables.jpg?b=1&s=612x612&w=0&k=20&c=MRxDgAGsjS5R4-ejQtxE-tb88M6j3z_234Q0v9O7CAw=",
+              "ingredients": [
+                "1 lb ground beef",
+                "1 can crushed tomatoes",
+                "1 onion, chopped",
+                "3 garlic cloves, minced",
+                "1 lb spaghetti pasta"
+              ],
+              "cooking_method": "Cook spaghetti according to package directions. In a large skillet, cook ground beef, onion, and garlic over medium heat until beef is browned and cooked through. Add crushed tomatoes and simmer for 15-20 minutes. Serve sauce over cooked spaghetti.",
+              "rating": 4.3,
+              "favorite": false
+            },
+            {
+              "name": "Classic Spaghetti Bolognese",
+              "recipe_img":"https://media.istockphoto.com/id/603906484/photo/vegetable-salad.jpg?b=1&s=612x612&w=0&k=20&c=BLnlu00d84F8p7cveYHYh4OvMDHh4oe910Ah1A6DBDo=",
+              "ingredients": [
+                "1 lb ground beef",
+                "1 can crushed tomatoes",
+                "1 onion, chopped",
+                "3 garlic cloves, minced",
+                "1 lb spaghetti pasta"
+              ],
+              "cooking_method": "Cook spaghetti according to package directions. In a large skillet, cook ground beef, onion, and garlic over medium heat until beef is browned and cooked through. Add crushed tomatoes and simmer for 15-20 minutes. Serve sauce over cooked spaghetti.",
+              "rating": 4.6,
+              "favorite": false
+            }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "picture": "https://media.istockphoto.com/id/666908954/photo/handsome-chef-pouring-olive-oil-on-meal.jpg?b=1&s=612x612&w=0&k=20&c=HjRKDT1x_HXmhBG7YkJud1Q3BUcYDHcg1g6gfV8wgt0=",
+        "bio": "Jane Smith is a master of fusion cuisine, combining flavors and techniques from around the world to create dishes that are both surprising and delightful. She has published several cookbooks and has been featured in numerous culinary magazines.",
+        "years_of_experience": 15,
+        "num_of_recipes": 80,
+        "likes": 3000,
+        "recipes": [
+            {
+              "name": "Classic Spaghetti Bolognese",
+              "recipe_img":"https://images.pexels.com/photos/6287534/pexels-photo-6287534.jpeg?auto=compress&cs=tinysrgb&w=600",
+              "ingredients": [
+                "1 lb ground beef",
+                "1 can crushed tomatoes",
+                "1 onion, chopped",
+                "3 garlic cloves, minced",
+                "1 lb spaghetti pasta"
+              ],
+              "cooking_method": "Cook spaghetti according to package directions. In a large skillet, cook ground beef, onion, and garlic over medium heat until beef is browned and cooked through. Add crushed tomatoes and simmer for 15-20 minutes. Serve sauce over cooked spaghetti.",
+              "rating": 4.7,
+              "favorite": false
+            },
+            {
+              "name": "Classic Spaghetti Bolognese",
+              "recipe_img":"https://media.istockphoto.com/id/893716434/photo/healhty-vegan-lunch-bowl-avocado-quinoa-sweet-potato-tomato-spinach-and-chickpeas-vegetables.jpg?b=1&s=612x612&w=0&k=20&c=MRxDgAGsjS5R4-ejQtxE-tb88M6j3z_234Q0v9O7CAw=",
+              "ingredients": [
+                "1 lb ground beef",
+                "1 can crushed tomatoes",
+                "1 onion, chopped",
+                "3 garlic cloves, minced",
+                "1 lb spaghetti pasta"
+              ],
+              "cooking_method": "Cook spaghetti according to package directions. In a large skillet, cook ground beef, onion, and garlic over medium heat until beef is browned and cooked through. Add crushed tomatoes and simmer for 15-20 minutes. Serve sauce over cooked spaghetti.",
+              "rating": 4,
+              "favorite": false
+            },
+            {
+              "name": "Classic Spaghetti Bolognese",
+              "recipe_img":"https://media.istockphoto.com/id/603906484/photo/vegetable-salad.jpg?b=1&s=612x612&w=0&k=20&c=BLnlu00d84F8p7cveYHYh4OvMDHh4oe910Ah1A6DBDo=",
+              "ingredients": [
+                "1 lb ground beef",
+                "1 can crushed tomatoes",
+                "1 onion, chopped",
+                "3 garlic cloves, minced",
+                "1 lb spaghetti pasta"
+              ],
+              "cooking_method": "Cook spaghetti according to package directions. In a large skillet, cook ground beef, onion, and garlic over medium heat until beef is browned and cooked through. Add crushed tomatoes and simmer for 15-20 minutes. Serve sauce over cooked spaghetti.",
+              "rating": 5,
+              "favorite": false
+            }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Michael Lee",
+        "picture": "https://media.istockphoto.com/id/1341912104/photo/portrait-of-a-successful-chef-at-a-restaurant-with-arms-crossed.jpg?b=1&s=612x612&w=0&k=20&c=7EMMgy9Bxr0aTTmlawZ0bPCOmdt_zduJ9a-sqvEth5Y=",
+        "bio": "Michael Lee is a self-taught chef who started his career as a line cook and worked his way up to become the executive chef at a Michelin-starred restaurant. He is known for his innovative use of local and seasonal ingredients.",
+        "years_of_experience": 20,
+        "num_of_recipes": 100,
+        "likes": 4000,
+        "recipes": [
+            {
+              "name": "Classic Spaghetti Bolognese",
+              "recipe_img":"https://images.pexels.com/photos/6287534/pexels-photo-6287534.jpeg?auto=compress&cs=tinysrgb&w=600",
+              "ingredients": [
+                "1 lb ground beef",
+                "1 can crushed tomatoes",
+                "1 onion, chopped",
+                "3 garlic cloves, minced",
+                "1 lb spaghetti pasta"
+              ],
+              "cooking_method": "Cook spaghetti according to package directions. In a large skillet, cook ground beef, onion, and garlic over medium heat until beef is browned and cooked through. Add crushed tomatoes and simmer for 15-20 minutes. Serve sauce over cooked spaghetti.",
+              "rating": 4.3,
+              "favorite": false
+            },
+            {
+              "name": "Classic Spaghetti Bolognese",
+              "recipe_img":"https://media.istockphoto.com/id/893716434/photo/healhty-vegan-lunch-bowl-avocado-quinoa-sweet-potato-tomato-spinach-and-chickpeas-vegetables.jpg?b=1&s=612x612&w=0&k=20&c=MRxDgAGsjS5R4-ejQtxE-tb88M6j3z_234Q0v9O7CAw=",
+              "ingredients": [
+                "1 lb ground beef",
+                "1 can crushed tomatoes",
+                "1 onion, chopped",
+                "3 garlic cloves, minced",
+                "1 lb spaghetti pasta"
+              ],
+              "cooking_method": "Cook spaghetti according to package directions. In a large skillet, cook ground beef, onion, and garlic over medium heat until beef is browned and cooked through. Add crushed tomatoes and simmer for 15-20 minutes. Serve sauce over cooked spaghetti.",
+              "rating": 5,
+              "favorite": false
+            },
+            {
+              "name": "Classic Spaghetti Bolognese",
+              "recipe_img":"https://media.istockphoto.com/id/603906484/photo/vegetable-salad.jpg?b=1&s=612x612&w=0&k=20&c=BLnlu00d84F8p7cveYHYh4OvMDHh4oe910Ah1A6DBDo=",
+              "ingredients": [
+                "1 lb ground beef",
+                "1 can crushed tomatoes",
+                "1 onion, chopped",
+                "3 garlic cloves, minced",
+                "1 lb spaghetti pasta"
+              ],
+              "cooking_method": "Cook spaghetti according to package directions. In a large skillet, cook ground beef, onion, and garlic over medium heat until beef is browned and cooked through. Add crushed tomatoes and simmer for 15-20 minutes. Serve sauce over cooked spaghetti.",
+              "rating": 4.5,
+              "favorite": false
+            }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Sarah Johnson",
+        "picture": "https://media.istockphoto.com/id/486860378/photo/my-chefs-know-how-to-cook.jpg?s=612x612&w=0&k=20&c=F7e0Nr5Xr56VJS1NFffBFu_zkcW2ifsw6EHxvKPGh38=",
+        "bio": "Sarah Johnson is a pastry chef who specializes in creating beautiful and delicious desserts. She has worked in some of the most famous patisseries in the world and has won several awards for her creations.",
+        "years_of_experience": 12,
+        "num_of_recipes": 60,
+        "likes": 2500,
+        "recipes": [
+            {
+              "name": "Classic Spaghetti Bolognese",
+              "recipe_img":"https://images.pexels.com/photos/6287534/pexels-photo-6287534.jpeg?auto=compress&cs=tinysrgb&w=600",
+              "ingredients": [
+                "1 lb ground beef",
+                "1 can crushed tomatoes",
+                "1 onion, chopped",
+                "3 garlic cloves, minced",
+                "1 lb spaghetti pasta"
+              ],
+              "cooking_method": "Cook spaghetti according to package directions. In a large skillet, cook ground beef, onion, and garlic over medium heat until beef is browned and cooked through. Add crushed tomatoes and simmer for 15-20 minutes. Serve sauce over cooked spaghetti.",
+              "rating": 4.8,
+              "favorite": false
+            },
+            {
+              "name": "Classic Spaghetti Bolognese",
+              "recipe_img":"https://media.istockphoto.com/id/893716434/photo/healhty-vegan-lunch-bowl-avocado-quinoa-sweet-potato-tomato-spinach-and-chickpeas-vegetables.jpg?b=1&s=612x612&w=0&k=20&c=MRxDgAGsjS5R4-ejQtxE-tb88M6j3z_234Q0v9O7CAw=",
+              "ingredients": [
+                "1 lb ground beef",
+                "1 can crushed tomatoes",
+                "1 onion, chopped",
+                "3 garlic cloves, minced",
+                "1 lb spaghetti pasta"
+              ],
+              "cooking_method": "Cook spaghetti according to package directions. In a large skillet, cook ground beef, onion, and garlic over medium heat until beef is browned and cooked through. Add crushed tomatoes and simmer for 15-20 minutes. Serve sauce over cooked spaghetti.",
+              "rating": 4.2,
+              "favorite": false
+            },
+            {
+              "name": "Classic Spaghetti Bolognese",
+              "recipe_img":"https://media.istockphoto.com/id/603906484/photo/vegetable-salad.jpg?b=1&s=612x612&w=0&k=20&c=BLnlu00d84F8p7cveYHYh4OvMDHh4oe910Ah1A6DBDo=",
+              "ingredients": [
+                "1 lb ground beef",
+                "1 can crushed tomatoes",
+                "1 onion, chopped",
+                "3 garlic cloves, minced",
+                "1 lb spaghetti pasta"
+              ],
+              "cooking_method": "Cook spaghetti according to package directions. In a large skillet, cook ground beef, onion, and garlic over medium heat until beef is browned and cooked through. Add crushed tomatoes and simmer for 15-20 minutes. Serve sauce over cooked spaghetti.",
+              "rating": 4.3,
+              "favorite": false
+            }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "David Kim",
+        "picture": "https://media.istockphoto.com/id/627198906/photo/busy-morning-in-the-bakery.jpg?s=612x612&w=0&k=20&c=t7CloFJ7tS_53L4FFim9NIp-ZNyFGPlQcwH1mqe80jo=",
+        "bio": "David Kim is a chef who is passionate about using organic and sustainable ingredients in his cooking. He runs his own farm where he grows many of the vegetables and herbs that he uses in his dishes.",
+        "years_of_experience": 8,
+        "num_of_recipes": 40,
+        "likes": 4500,
+        "recipes": [
+            {
+              "name": "Classic Spaghetti Bolognese",
+              "recipe_img":"https://images.pexels.com/photos/6287534/pexels-photo-6287534.jpeg?auto=compress&cs=tinysrgb&w=600",
+              "ingredients": [
+                "1 lb ground beef",
+                "1 can crushed tomatoes",
+                "1 onion, chopped",
+                "3 garlic cloves, minced",
+                "1 lb spaghetti pasta"
+              ],
+              "cooking_method": "Cook spaghetti according to package directions. In a large skillet, cook ground beef, onion, and garlic over medium heat until beef is browned and cooked through. Add crushed tomatoes and simmer for 15-20 minutes. Serve sauce over cooked spaghetti.",
               "rating": 4.5,
               "favorite": false
             },
             {
               "name": "Classic Spaghetti Bolognese",
-              "recipe_img":"https://www.pexels.com/photo/delicious-gnocchi-with-meat-and-sauce-served-on-table-with-wineglass-6383072/",
+              "recipe_img":"https://media.istockphoto.com/id/893716434/photo/healhty-vegan-lunch-bowl-avocado-quinoa-sweet-potato-tomato-spinach-and-chickpeas-vegetables.jpg?b=1&s=612x612&w=0&k=20&c=MRxDgAGsjS5R4-ejQtxE-tb88M6j3z_234Q0v9O7CAw=",
               "ingredients": [
                 "1 lb ground beef",
                 "1 can crushed tomatoes",
@@ -32,7 +244,60 @@
                 "3 garlic cloves, minced",
                 "1 lb spaghetti pasta"
               ],
-              "cooking_method": "1. Cook spaghetti according to package directions.\n2. In a large skillet, cook ground beef, onion, and garlic over medium heat until beef is browned and cooked through.\n3. Add crushed tomatoes and simmer for 15-20 minutes.\n4. Serve sauce over cooked spaghetti.",
+              "cooking_method": "Cook spaghetti according to package directions. In a large skillet, cook ground beef, onion, and garlic over medium heat until beef is browned and cooked through. Add crushed tomatoes and simmer for 15-20 minutes. Serve sauce over cooked spaghetti.",
+              "rating":5,
+              "favorite": false
+            },
+            {
+              "name": "Classic Spaghetti Bolognese",
+              "recipe_img":"https://media.istockphoto.com/id/603906484/photo/vegetable-salad.jpg?b=1&s=612x612&w=0&k=20&c=BLnlu00d84F8p7cveYHYh4OvMDHh4oe910Ah1A6DBDo=",
+              "ingredients": [
+                "1 lb ground beef",
+                "1 can crushed tomatoes",
+                "1 onion, chopped",
+                "3 garlic cloves, minced",
+                "1 lb spaghetti pasta"
+              ],
+              "cooking_method": "Cook spaghetti according to package directions. In a large skillet, cook ground beef, onion, and garlic over medium heat until beef is browned and cooked through. Add crushed tomatoes and simmer for 15-20 minutes. Serve sauce over cooked spaghetti.",
+              "rating": 4,
+              "favorite": false
+            }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Emily Chen",
+        "picture": "https://media.istockphoto.com/id/1298088270/photo/young-beautiful-smiling-woman-chef-with-arms-crossed-at-kitchen.jpg?s=612x612&w=0&k=20&c=ZtYaFLtiRkuA6mQ8HK05xjZNvpb4ev2BS9g2Uc6mdww=",
+        "bio": "Emily Chen is a chef who specializes in plant-based cuisine. She is passionate about creating dishes that are both healthy and delicious and has published a popular cookbook on the subject.",
+        "years_of_experience": 5,
+        "num_of_recipes": 30,
+        "likes": 4500,
+        "recipes": [
+            {
+              "name": "Classic Spaghetti Bolognese",
+              "recipe_img":"https://images.pexels.com/photos/6287534/pexels-photo-6287534.jpeg?auto=compress&cs=tinysrgb&w=600",
+              "ingredients": [
+                "1 lb ground beef",
+                "1 can crushed tomatoes",
+                "1 onion, chopped",
+                "3 garlic cloves, minced",
+                "1 lb spaghetti pasta"
+              ],
+              "cooking_method": "Cook spaghetti according to package directions. In a large skillet, cook ground beef, onion, and garlic over medium heat until beef is browned and cooked through. Add crushed tomatoes and simmer for 15-20 minutes. Serve sauce over cooked spaghetti.",
+              "rating": 4,
+              "favorite": false
+            },
+            {
+              "name": "Classic Spaghetti Bolognese",
+              "recipe_img":"https://media.istockphoto.com/id/893716434/photo/healhty-vegan-lunch-bowl-avocado-quinoa-sweet-potato-tomato-spinach-and-chickpeas-vegetables.jpg?b=1&s=612x612&w=0&k=20&c=MRxDgAGsjS5R4-ejQtxE-tb88M6j3z_234Q0v9O7CAw=",
+              "ingredients": [
+                "1 lb ground beef",
+                "1 can crushed tomatoes",
+                "1 onion, chopped",
+                "3 garlic cloves, minced",
+                "1 lb spaghetti pasta"
+              ],
+              "cooking_method": "Cook spaghetti according to package directions. In a large skillet, cook ground beef, onion, and garlic over medium heat until beef is browned and cooked through. Add crushed tomatoes and simmer for 15-20 minutes. Serve sauce over cooked spaghetti.",
               "rating": 4.5,
               "favorite": false
             },
@@ -46,273 +311,8 @@
                 "3 garlic cloves, minced",
                 "1 lb spaghetti pasta"
               ],
-              "cooking_method": "1. Cook spaghetti according to package directions.\n2. In a large skillet, cook ground beef, onion, and garlic over medium heat until beef is browned and cooked through.\n3. Add crushed tomatoes and simmer for 15-20 minutes.\n4. Serve sauce over cooked spaghetti.",
-              "rating": 4.5,
-              "favorite": false
-            }
-        ]
-      },
-      {
-        "id": 2,
-        "name": "Jane Smith",
-        "picture": "https://media.istockphoto.com/id/666908954/photo/handsome-chef-pouring-olive-oil-on-meal.jpg?b=1&s=612x612&w=0&k=20&c=HjRKDT1x_HXmhBG7YkJud1Q3BUcYDHcg1g6gfV8wgt0=",
-        "bio": "Jane Smith is a master of fusion cuisine, combining flavors and techniques from around the world to create dishes that are both surprising and delightful. She has published several cookbooks and has been featured in numerous culinary magazines.",
-        "years_of_experience": 15,
-        "num_of_recipes": 80,
-        "likes": 300,
-        "recipes": [
-            {
-              "name": "Classic Spaghetti Bolognese",
-              "recipe_img":"https://images.pexels.com/photos/6382782/pexels-photo-6382782.jpeg?auto=compress&cs=tinysrgb&w=600",
-              "ingredients": [
-                "1 lb ground beef",
-                "1 can crushed tomatoes",
-                "1 onion, chopped",
-                "3 garlic cloves, minced",
-                "1 lb spaghetti pasta"
-              ],
-              "cooking_method": "1. Cook spaghetti according to package directions.\n2. In a large skillet, cook ground beef, onion, and garlic over medium heat until beef is browned and cooked through.\n3. Add crushed tomatoes and simmer for 15-20 minutes.\n4. Serve sauce over cooked spaghetti.",
-              "rating": 4.5,
-              "favorite": false
-            },
-            {
-              "name": "Classic Spaghetti Bolognese",
-              "recipe_img":"https://images.pexels.com/photos/6382782/pexels-photo-6382782.jpeg?auto=compress&cs=tinysrgb&w=600",
-              "ingredients": [
-                "1 lb ground beef",
-                "1 can crushed tomatoes",
-                "1 onion, chopped",
-                "3 garlic cloves, minced",
-                "1 lb spaghetti pasta"
-              ],
-              "cooking_method": "1. Cook spaghetti according to package directions.\n2. In a large skillet, cook ground beef, onion, and garlic over medium heat until beef is browned and cooked through.\n3. Add crushed tomatoes and simmer for 15-20 minutes.\n4. Serve sauce over cooked spaghetti.",
-              "rating": 4.5,
-              "favorite": false
-            },
-            {
-              "name": "Classic Spaghetti Bolognese",
-              "recipe_img":"https://images.pexels.com/photos/6382782/pexels-photo-6382782.jpeg?auto=compress&cs=tinysrgb&w=600",
-              "ingredients": [
-                "1 lb ground beef",
-                "1 can crushed tomatoes",
-                "1 onion, chopped",
-                "3 garlic cloves, minced",
-                "1 lb spaghetti pasta"
-              ],
-              "cooking_method": "1. Cook spaghetti according to package directions.\n2. In a large skillet, cook ground beef, onion, and garlic over medium heat until beef is browned and cooked through.\n3. Add crushed tomatoes and simmer for 15-20 minutes.\n4. Serve sauce over cooked spaghetti.",
-              "rating": 4.5,
-              "favorite": false
-            }
-        ]
-      },
-      {
-        "id": 3,
-        "name": "Michael Lee",
-        "picture": "https://media.istockphoto.com/id/666908954/photo/handsome-chef-pouring-olive-oil-on-meal.jpg?b=1&s=612x612&w=0&k=20&c=HjRKDT1x_HXmhBG7YkJud1Q3BUcYDHcg1g6gfV8wgt0=",
-        "bio": "Michael Lee is a self-taught chef who started his career as a line cook and worked his way up to become the executive chef at a Michelin-starred restaurant. He is known for his innovative use of local and seasonal ingredients.",
-        "years_of_experience": 20,
-        "num_of_recipes": 100,
-        "likes": 400,
-        "recipes": [
-            {
-              "name": "Classic Spaghetti Bolognese",
-              "recipe_img":"https://images.pexels.com/photos/6382782/pexels-photo-6382782.jpeg?auto=compress&cs=tinysrgb&w=600",
-              "ingredients": [
-                "1 lb ground beef",
-                "1 can crushed tomatoes",
-                "1 onion, chopped",
-                "3 garlic cloves, minced",
-                "1 lb spaghetti pasta"
-              ],
-              "cooking_method": "1. Cook spaghetti according to package directions.\n2. In a large skillet, cook ground beef, onion, and garlic over medium heat until beef is browned and cooked through.\n3. Add crushed tomatoes and simmer for 15-20 minutes.\n4. Serve sauce over cooked spaghetti.",
-              "rating": 4.5,
-              "favorite": false
-            },
-            {
-              "name": "Classic Spaghetti Bolognese",
-              "recipe_img":"https://images.pexels.com/photos/6382782/pexels-photo-6382782.jpeg?auto=compress&cs=tinysrgb&w=600",
-              "ingredients": [
-                "1 lb ground beef",
-                "1 can crushed tomatoes",
-                "1 onion, chopped",
-                "3 garlic cloves, minced",
-                "1 lb spaghetti pasta"
-              ],
-              "cooking_method": "1. Cook spaghetti according to package directions.\n2. In a large skillet, cook ground beef, onion, and garlic over medium heat until beef is browned and cooked through.\n3. Add crushed tomatoes and simmer for 15-20 minutes.\n4. Serve sauce over cooked spaghetti.",
-              "rating": 4.5,
-              "favorite": false
-            },
-            {
-              "name": "Classic Spaghetti Bolognese",
-              "recipe_img":"https://images.pexels.com/photos/6382782/pexels-photo-6382782.jpeg?auto=compress&cs=tinysrgb&w=600",
-              "ingredients": [
-                "1 lb ground beef",
-                "1 can crushed tomatoes",
-                "1 onion, chopped",
-                "3 garlic cloves, minced",
-                "1 lb spaghetti pasta"
-              ],
-              "cooking_method": "1. Cook spaghetti according to package directions.\n2. In a large skillet, cook ground beef, onion, and garlic over medium heat until beef is browned and cooked through.\n3. Add crushed tomatoes and simmer for 15-20 minutes.\n4. Serve sauce over cooked spaghetti.",
-              "rating": 4.5,
-              "favorite": false
-            }
-        ]
-      },
-      {
-        "id": 4,
-        "name": "Sarah Johnson",
-        "picture": "https://media.istockphoto.com/id/666908954/photo/handsome-chef-pouring-olive-oil-on-meal.jpg?b=1&s=612x612&w=0&k=20&c=HjRKDT1x_HXmhBG7YkJud1Q3BUcYDHcg1g6gfV8wgt0=",
-        "bio": "Sarah Johnson is a pastry chef who specializes in creating beautiful and delicious desserts. She has worked in some of the most famous patisseries in the world and has won several awards for her creations.",
-        "years_of_experience": 12,
-        "num_of_recipes": 60,
-        "likes": 250,
-        "recipes": [
-            {
-              "name": "Classic Spaghetti Bolognese",
-              "recipe_img":"https://images.pexels.com/photos/6382782/pexels-photo-6382782.jpeg?auto=compress&cs=tinysrgb&w=600",
-              "ingredients": [
-                "1 lb ground beef",
-                "1 can crushed tomatoes",
-                "1 onion, chopped",
-                "3 garlic cloves, minced",
-                "1 lb spaghetti pasta"
-              ],
-              "cooking_method": "1. Cook spaghetti according to package directions.\n2. In a large skillet, cook ground beef, onion, and garlic over medium heat until beef is browned and cooked through.\n3. Add crushed tomatoes and simmer for 15-20 minutes.\n4. Serve sauce over cooked spaghetti.",
-              "rating": 4.5,
-              "favorite": false
-            },
-            {
-              "name": "Classic Spaghetti Bolognese",
-              "recipe_img":"https://images.pexels.com/photos/6382782/pexels-photo-6382782.jpeg?auto=compress&cs=tinysrgb&w=600",
-              "ingredients": [
-                "1 lb ground beef",
-                "1 can crushed tomatoes",
-                "1 onion, chopped",
-                "3 garlic cloves, minced",
-                "1 lb spaghetti pasta"
-              ],
-              "cooking_method": "1. Cook spaghetti according to package directions.\n2. In a large skillet, cook ground beef, onion, and garlic over medium heat until beef is browned and cooked through.\n3. Add crushed tomatoes and simmer for 15-20 minutes.\n4. Serve sauce over cooked spaghetti.",
-              "rating": 4.5,
-              "favorite": false
-            },
-            {
-              "name": "Classic Spaghetti Bolognese",
-              "recipe_img":"https://images.pexels.com/photos/6382782/pexels-photo-6382782.jpeg?auto=compress&cs=tinysrgb&w=600",
-              "ingredients": [
-                "1 lb ground beef",
-                "1 can crushed tomatoes",
-                "1 onion, chopped",
-                "3 garlic cloves, minced",
-                "1 lb spaghetti pasta"
-              ],
-              "cooking_method": "1. Cook spaghetti according to package directions.\n2. In a large skillet, cook ground beef, onion, and garlic over medium heat until beef is browned and cooked through.\n3. Add crushed tomatoes and simmer for 15-20 minutes.\n4. Serve sauce over cooked spaghetti.",
-              "rating": 4.5,
-              "favorite": false
-            }
-        ]
-      },
-      {
-        "id": 5,
-        "name": "David Kim",
-        "picture": "https://media.istockphoto.com/id/666908954/photo/handsome-chef-pouring-olive-oil-on-meal.jpg?b=1&s=612x612&w=0&k=20&c=HjRKDT1x_HXmhBG7YkJud1Q3BUcYDHcg1g6gfV8wgt0=",
-        "bio": "David Kim is a chef who is passionate about using organic and sustainable ingredients in his cooking. He runs his own farm where he grows many of the vegetables and herbs that he uses in his dishes.",
-        "years_of_experience": 8,
-        "num_of_recipes": 40,
-        "likes": 150,
-        "recipes": [
-            {
-              "name": "Classic Spaghetti Bolognese",
-              "recipe_img":"https://images.pexels.com/photos/6382782/pexels-photo-6382782.jpeg?auto=compress&cs=tinysrgb&w=600",
-              "ingredients": [
-                "1 lb ground beef",
-                "1 can crushed tomatoes",
-                "1 onion, chopped",
-                "3 garlic cloves, minced",
-                "1 lb spaghetti pasta"
-              ],
-              "cooking_method": "1. Cook spaghetti according to package directions.\n2. In a large skillet, cook ground beef, onion, and garlic over medium heat until beef is browned and cooked through.\n3. Add crushed tomatoes and simmer for 15-20 minutes.\n4. Serve sauce over cooked spaghetti.",
-              "rating": 4.5,
-              "favorite": false
-            },
-            {
-              "name": "Classic Spaghetti Bolognese",
-              "recipe_img":"https://images.pexels.com/photos/6382782/pexels-photo-6382782.jpeg?auto=compress&cs=tinysrgb&w=600",
-              "ingredients": [
-                "1 lb ground beef",
-                "1 can crushed tomatoes",
-                "1 onion, chopped",
-                "3 garlic cloves, minced",
-                "1 lb spaghetti pasta"
-              ],
-              "cooking_method": "1. Cook spaghetti according to package directions.\n2. In a large skillet, cook ground beef, onion, and garlic over medium heat until beef is browned and cooked through.\n3. Add crushed tomatoes and simmer for 15-20 minutes.\n4. Serve sauce over cooked spaghetti.",
-              "rating": 4.5,
-              "favorite": false
-            },
-            {
-              "name": "Classic Spaghetti Bolognese",
-              "recipe_img":"https://images.pexels.com/photos/6382782/pexels-photo-6382782.jpeg?auto=compress&cs=tinysrgb&w=600",
-              "ingredients": [
-                "1 lb ground beef",
-                "1 can crushed tomatoes",
-                "1 onion, chopped",
-                "3 garlic cloves, minced",
-                "1 lb spaghetti pasta"
-              ],
-              "cooking_method": "1. Cook spaghetti according to package directions.\n2. In a large skillet, cook ground beef, onion, and garlic over medium heat until beef is browned and cooked through.\n3. Add crushed tomatoes and simmer for 15-20 minutes.\n4. Serve sauce over cooked spaghetti.",
-              "rating": 4.5,
-              "favorite": false
-            }
-        ]
-      },
-      {
-        "id": 6,
-        "name": "Emily Chen",
-        "picture": "https://media.istockphoto.com/id/666908954/photo/handsome-chef-pouring-olive-oil-on-meal.jpg?b=1&s=612x612&w=0&k=20&c=HjRKDT1x_HXmhBG7YkJud1Q3BUcYDHcg1g6gfV8wgt0=",
-        "bio": "Emily Chen is a chef who specializes in plant-based cuisine. She is passionate about creating dishes that are both healthy and delicious and has published a popular cookbook on the subject.",
-        "years_of_experience": 5,
-        "num_of_recipes": 30,
-        "likes": 100,
-        "recipes": [
-            {
-              "name": "Classic Spaghetti Bolognese",
-              "recipe_img":"https://images.pexels.com/photos/6382782/pexels-photo-6382782.jpeg?auto=compress&cs=tinysrgb&w=600",
-              "ingredients": [
-                "1 lb ground beef",
-                "1 can crushed tomatoes",
-                "1 onion, chopped",
-                "3 garlic cloves, minced",
-                "1 lb spaghetti pasta"
-              ],
-              "cooking_method": "1. Cook spaghetti according to package directions.\n2. In a large skillet, cook ground beef, onion, and garlic over medium heat until beef is browned and cooked through.\n3. Add crushed tomatoes and simmer for 15-20 minutes.\n4. Serve sauce over cooked spaghetti.",
-              "rating": 4.5,
-              "favorite": false
-            },
-            {
-              "name": "Classic Spaghetti Bolognese",
-              "recipe_img":"https://images.pexels.com/photos/6382782/pexels-photo-6382782.jpeg?auto=compress&cs=tinysrgb&w=600",
-              "ingredients": [
-                "1 lb ground beef",
-                "1 can crushed tomatoes",
-                "1 onion, chopped",
-                "3 garlic cloves, minced",
-                "1 lb spaghetti pasta"
-              ],
-              "cooking_method": "1. Cook spaghetti according to package directions.\n2. In a large skillet, cook ground beef, onion, and garlic over medium heat until beef is browned and cooked through.\n3. Add crushed tomatoes and simmer for 15-20 minutes.\n4. Serve sauce over cooked spaghetti.",
-              "rating": 4.5,
-              "favorite": false
-            },
-            {
-              "name": "Classic Spaghetti Bolognese",
-              "recipe_img":"https://images.pexels.com/photos/6382782/pexels-photo-6382782.jpeg?auto=compress&cs=tinysrgb&w=600",
-              "ingredients": [
-                "1 lb ground beef",
-                "1 can crushed tomatoes",
-                "1 onion, chopped",
-                "3 garlic cloves, minced",
-                "1 lb spaghetti pasta"
-              ],
-              "cooking_method": "1. Cook spaghetti according to package directions.\n2. In a large skillet, cook ground beef, onion, and garlic over medium heat until beef is browned and cooked through.\n3. Add crushed tomatoes and simmer for 15-20 minutes.\n4. Serve sauce over cooked spaghetti.",
-              "rating": 4.5,
+              "cooking_method": "Cook spaghetti according to package directions. In a large skillet, cook ground beef, onion, and garlic over medium heat until beef is browned and cooked through. Add crushed tomatoes and simmer for 15-20 minutes. Serve sauce over cooked spaghetti.",
+              "rating": 5,
               "favorite": false
             }
         ]
