@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "name": "Spaghetti Bolognese",
+      "image": "https://images.pexels.com/photos/1640771/pexels-photo-1640771.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "description": "A classic Italian dish made with spaghetti pasta and a rich meat sauce."
+    },
+    {
+      "id": 2,
+      "name": "Chicken Caesar Salad",
+      "image": "https://images.pexels.com/photos/6287525/pexels-photo-6287525.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "description": "A fresh and flavorful salad made with grilled chicken, romaine lettuce, and a creamy Caesar dressing."
+    },
+    {
+      "id": 3,
+      "name": "Beef Stroganoff",
+      "image": "https://images.pexels.com/photos/3843225/pexels-photo-3843225.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "description": "A hearty and comforting dish made with tender beef strips and a creamy mushroom sauce."
+    },
+    {
+      "id": 4,
+      "name": "Greek Salad",
+      "image": "https://images.pexels.com/photos/5692293/pexels-photo-5692293.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "description": "A light and refreshing salad made with cucumber, tomato, red onion, and feta cheese."
+    },
+    {
+      "id": 5,
+      "name": "Beef Tacos",
+      "image": "https://images.pexels.com/photos/5907903/pexels-photo-5907903.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "description": "A fun and flavorful Mexican dish made with seasoned ground beef and toppings like avocado and salsa."
+    },
+    {
+      "id": 6,
+      "name": "Mushroom Risotto",
+      "image": "https://images.pexels.com/photos/3843224/pexels-photo-3843224.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "description": "A creamy and indulgent Italian rice dish made with mushrooms and parmesan cheese."
+    }
+  ]
